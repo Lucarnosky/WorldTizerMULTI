@@ -44,7 +44,7 @@ nextTurn = (req, res, next) => {
         }
         html += "</tr>";
     }
-    html += "</table><script>setTimeout(function(){window.location.reload();},1000);</script>";
+    html += "</table><script>setTimeout(function(){window.location.reload();},5000);</script>";
     res.end(html);
 }
 

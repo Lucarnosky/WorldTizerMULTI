@@ -15,7 +15,7 @@ class Rock extends Tile {
         if (this.countSurrounding(map, "Water") > 0) {
             this.genWithWater++;
         }
-        if (this.genWithWater > 5) {
+        if (this.genWithWater == 5) {
             const body = { x: this.x,y : this.y, tile: "Sand" };
 
             axios.post('http://172.17.21.111:3000/map', {
