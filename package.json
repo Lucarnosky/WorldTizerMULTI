@@ -1,0 +1,26 @@
+{
+  "name": "worldtizermulti",
+  "version": "1.0.0",
+  "description": "Server side ",
+  "main": "world.js",
+  "scripts": {
+    "start": "nodemon world.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucarnosky/WorldTizerMULTI.git"
+  },
+  "author": "Matteo Lucarno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucarnosky/WorldTizerMULTI/issues"
+  },
+  "homepage": "https://github.com/Lucarnosky/WorldTizerMULTI#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.16"
+  }
+}
